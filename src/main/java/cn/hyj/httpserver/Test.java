@@ -1,4 +1,4 @@
-package cn.hyj.study.httpserver;
+package cn.hyj.httpserver;
 
 import java.io.IOException;
 import java.net.ServerSocket;
