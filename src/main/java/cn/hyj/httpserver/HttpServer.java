@@ -57,7 +57,7 @@ public class HttpServer  extends Thread {
 			sendErrorMessage(400, "File Not Found");
 		}
 		
-		//组装HTTP响应信息：状态行+【响应头】+响应正文
+		//组装HTTP响应信息：状态行+响应头+响应正文
 		try {
 			InputStream in = new FileInputStream(file);
 			byte content[] = new byte[(int)file.length()];
